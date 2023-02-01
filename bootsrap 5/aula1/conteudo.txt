@@ -1,0 +1,68 @@
+Bootstrap: Biblioteca utilizada para facilitar algumas ações dentro do código
+
+Há duas maneiras de utilizar o Bootstrap: 
+-> Baixando os arquivos em seu dispositivo; 
+-> Através de um link CDN disponibilizado no site;
+
+*PRINCIPAIS FUNCIONALIDADES*
+
+Alinhamento de Texto:
+-> Text-Start (alinha à direita);
+-> Text-Center (alinha ao centro);
+-> Text-End (alinha à esquerda);
+-> Text-Nowrap ( Desfaz a quebra linha, deixa o texto contínuo);
+-> Text-Break (Quebra uma palavra muito grande);
+-> Text-Uppercase (Deixa todas as letras maiúsculas);
+-> Text-Lowercase (Deixa todas as letras minuculas);
+-> Text-Capitalize (Deixa a primeira letra de todas as palavras maiúsculas);
+
+Fonte:
+Mudar o "peso" da fonte, abreviação da "Font-Weight"do CSS:
+-> fw-bold (negrito);
+-> fw-bolder (entre negrito e normal);
+-> fw-normal (Normal);
+-> fw-lighter (entre claro e normal);
+-> fw-light (claro);
+Mudar o estilo da fonte:
+-> lst-italic (itálico);
+-> lst-normal (normal);
+
+Espaçamento de linha:
+Utilizada para ter espaçamento entre os parágrafos, abreviação de line height:
+-> lh-1 (sem espaçamento);
+-> lh-sm (pequeno);
+-> lh-base (normal);
+-> lh-lg (grande);
+
+Personalização do texto:
+Podendo adicionar algumas personalizações ao código
+-> text-decoration-none (nenhuma);
+-> text-decoration-underline (sublinhado);
+-> text-decoration-line-through (linha passa pelo meio do texto);
+
+Cores:
+Há um padrão de cores seguidos especificamente pelo bootstrap, sendo essas a seguir:
+-> Primary (azul);
+-> Secondary (cinza);
+-> Success (verde);
+-> Danger (vermelho);
+-> Warning (amarelo);
+-> Info (ciano);
+-> White (Branco);
+-> Dark (Preto);
+-> Light (Claro);
+As maneiras de trabalhar com essas cores são mudando a cor do texto, com a tag:
+-> Text-light;
+(essa tag pode ser utilizada para todas as cores);
+Ou, mudando cor do fundo, com a tag:
+-> bg-light;
+(essa tag pode ser utilizada para todas as cores);
+
+Margin:
+Utilizada no bootstrap representada por M e vai de 0 ao 5;
+-> M0(0rem/px);
+-> M1(0.25rem/4px);
+-> M2(0.5rem/8px);
+-> M3(1rem/16px);
+-> M4(1.5rem/24px);
+-> M5(3rem/48px);
