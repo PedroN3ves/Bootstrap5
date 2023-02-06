@@ -148,3 +148,27 @@ Para criar um agrupamento nesse estilo, é necessário criar os botões pelas ta
 -> input;
 -> label;
 
+
+
+Alerta:
+Para criar um alerta utilizando bootstrap, faz uso da class e role:
+-> alert
+Podendo ser complementada com links e cabeçalho próprio, com a class:
+-> alert-link;
+-> alert-heading;
+Também podendo adicionar as cores padrões do bootstrap(ln43)
+Para ficar com a funcionalidade completa, seria necessário o uso do JavaScript
+
+
+
+Barras de Progresso:
+Para fazer uma barra de progresso no bootstrap, primeiramnete criar uma div com as tags:
+-> class:progress
+-> role:progressbar
+Além de por os valores minimos e máximos da barra, com as tags:
+-> aria-valuemin
+-> aria-valuemax
+Também podendo opcionalmente por o valor que eseja da barra, com a tag:
+-> aria-valuenow
+
+Feito isso, adicionaria outra div
